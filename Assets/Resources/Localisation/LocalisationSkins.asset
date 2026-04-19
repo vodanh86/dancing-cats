@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee0446194927eb41a86b381461f9b08, type: 3}
+  m_Name: LocalisationSkins
+  m_EditorClassIdentifier: 
+  LocalisationList:
+  - Key: Whiskers
+    RussianText: "\u041C\u0443\u0440\u0437\u0438\u043A"
+    EnglishText: Whiskers
+    SpanishText: Bigotes
+    GermanText: Schnurrhaare
+    TurkishText: "B\u0131y\u0131klar"
+  - Key: Fluffy
+    RussianText: "\u0411\u0430\u0440\u0441\u0438\u043A"
+    EnglishText: Fluffy
+    SpanishText: Suave
+    GermanText: Flauschig
+    TurkishText: "T\xFCyl\xFC"
+  - Key: Mittens
+    RussianText: "\u041C\u0443\u0440\u043A\u0430"
+    EnglishText: Mittens
+    SpanishText: Manoplas
+    GermanText: Faustlinge
+    TurkishText: Eldivenler
+  - Key: Paws
+    RussianText: "\u0412\u0430\u0441\u044C\u043A\u0430"
+    EnglishText: Paws
+    SpanishText: Patas
+    GermanText: Pfoten
+    TurkishText: Patiler
+  - Key: Ginger
+    RussianText: "\u0420\u044B\u0436\u0438\u043A"
+    EnglishText: Ginger
+    SpanishText: Jengibre
+    GermanText: Ingwer
+    TurkishText: Zencefil
+  - Key: Fuzzy
+    RussianText: "\u041F\u0443\u0448\u0438\u0441\u0442\u0438\u043A"
+    EnglishText: Fuzzy
+    SpanishText: Lana
+    GermanText: Wolle
+    TurkishText: "Y\xFCnl\xFC"
+  - Key: Kitty
+    RussianText: "\u041A\u0438\u0441\u0443\u043D\u044F"
+    EnglishText: Kitty
+    SpanishText: Kisunya
+    GermanText: Kisunya
+    TurkishText: Kisunya
+  - Key: Mushroom
+    RussianText: "\u0413\u0440\u0438\u0431\u043E\u0447\u0435\u043A"
+    EnglishText: Mushroom
+    SpanishText: Setas
+    GermanText: Pilz
+    TurkishText: Mantar
+  - Key: Snuggles
+    RussianText: "\u041B\u0430\u043F\u0443\u0448\u043A\u0430"
+    EnglishText: Snuggles
+    SpanishText: Sweetie
+    GermanText: "S\xFC\xDFer"
+    TurkishText: "Tatl\u0131m"
+  - Key: Simba
+    RussianText: "\u0421\u0438\u043C\u0431\u0430"
+    EnglishText: Simba
+    SpanishText: Simba
+    GermanText: Simba
+    TurkishText: Simba
+  - Key: Sunny
+    RussianText: "\u0421\u043E\u043B\u043D\u044B\u0448\u043A\u043E"
+    EnglishText: Sunny
+    SpanishText: Sunny
+    GermanText: Sonnig
+    TurkishText: "G\xFCne\u015Fli"
+  - Key: Santa
+    RussianText: "\u0414\u0435\u0434\u041C\u043E\u0440\u043E\u0437"
+    EnglishText: Santa
+    SpanishText: "Pap\xE1 Noel"
+    GermanText: Weihnachtsmann
+    TurkishText: Noel Baba

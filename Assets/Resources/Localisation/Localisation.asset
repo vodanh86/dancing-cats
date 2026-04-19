@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee0446194927eb41a86b381461f9b08, type: 3}
+  m_Name: Localisation
+  m_EditorClassIdentifier: 
+  LocalisationList:
+  - Key: RESTART
+    RussianText: "\u0417\u0410\u041D\u041E\u0412\u041E"
+    EnglishText: RESTART
+    SpanishText: REINICIAR
+    GermanText: NEUSTART
+    TurkishText: YENIDEN BASLAT
+  - Key: SETTINGS
+    RussianText: "\u041D\u0410\u0421\u0422\u0420\u041E\u0419\u041A\u0418"
+    EnglishText: SETTINGS
+    SpanishText: AJUSTES
+    GermanText: EINSTELLUNGEN
+    TurkishText: AYARLAR
+  - Key: Shop
+    RussianText: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D"
+    EnglishText: Shop
+    SpanishText: Tienda
+    GermanText: Laden
+    TurkishText: Magaza
+  - Key: Song
+    RussianText: "\u041F\u0435\u0441\u043D\u044F"
+    EnglishText: Song
+    SpanishText: Cancion
+    GermanText: Lied
+    TurkishText: "Sark\u0131"
+  - Key: 'Song name:'
+    RussianText: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043F\u0435\u0441\u043D\u0438:"
+    EnglishText: 'Song name:'
+    SpanishText: "Nombre de la canci\xF3n:"
+    GermanText: 'Name des Liedes:'
+    TurkishText: "Sark\u0131 ad\u0131:"
+  - Key: Songs
+    RussianText: "\u041F\u0435\u0441\u043D\u0438"
+    EnglishText: Songs
+    SpanishText: Canciones
+    GermanText: Lieder
+    TurkishText: "Sark\u0131lar"
+  - Key: Volume
+    RussianText: "\u0413\u0440\u043E\u043C\u043A\u043E\u0441\u0442\u044C"
+    EnglishText: Volume
+    SpanishText: Volumen
+    GermanText: Band
+    TurkishText: Cilt
+  - Key: LEVEL
+    RussianText: "\u0423\u0420\u041E\u0412\u0415\u041D\u042C {T0}"
+    EnglishText: LEVEL {T0}
+    SpanishText: NIVEL {T0}
+    GermanText: EBENE {T0}
+    TurkishText: "SEV\u0130YE {T0}"
+  - Key: LoaderTut
+    RussianText: "\u043D\u0435 \u0437\u0430\u0431\u0443\u0434\u044C\u0442\u0435 \u0432\u043A\u043B\u044E\u0447\u0438\u0442\u044C
+      \u0437\u0432\u0443\u043A"
+    EnglishText: don't forget to turn on the sound
+    SpanishText: no olvides encender el sonido
+    GermanText: Vergessen Sie nicht, den Ton einzuschalten
+    TurkishText: "sesi\u0307 acmayi unutma"
+  - Key: ReviewQuestion
+    RussianText: "\u041D\u0440\u0430\u0432\u0438\u0442\u0441\u044F \u0438\u0433\u0440\u0430?"
+    EnglishText: Do You like the game?
+    SpanishText: "\xBFTe gusta el juego?"
+    GermanText: "Gef\xE4llt Ihnen das Spiel?"
+    TurkishText: "sesi\u0307 acmayi unutma"
+  - Key: Cool
+    RussianText: "\u041A\u043E\u043D\u0435\u0447\u043D\u043E!"
+    EnglishText: Ofcourse!
+    SpanishText: Por supuesto!
+    GermanText: "Ja, nat\xFCrlich!"
+    TurkishText: Tabii ki!
+  - Key: No
+    RussianText: "\u041D\u0435\u0442"
+    EnglishText: No
+    SpanishText: No
+    GermanText: Nein
+    TurkishText: "Hay\u0131r"
+  - Key: Leaderboard
+    RussianText: "\u0414\u043E\u0441\u043A\u0430 \u043F\u043E\u0447\u0435\u0442\u0430"
+    EnglishText: Leaderboard
+    SpanishText: "Clasificaci\xF3n"
+    GermanText: Liderlik Tablosu
+    TurkishText: Liderlik Tablosu
+  - Key: Hidden
+    RussianText: "\u0421\u043A\u0440\u044B\u0442"
+    EnglishText: Hidden
+    SpanishText: Oculto
+    GermanText: Bestenliste
+    TurkishText: Gizli
+  - Key: 'Points:'
+    RussianText: "\u041E\u0447\u043A\u0438:"
+    EnglishText: 'Points:'
+    SpanishText: 'Puntos:'
+    GermanText: 'Punkte:'
+    TurkishText: 'Puan:'
+  - Key: GOOD
+    RussianText: "\u0425\u041E\u0420\u041E\u0428"
+    EnglishText: GOOD
+    SpanishText: BUENA
+    GermanText: GUT
+    TurkishText: IYI
+  - Key: Get Wings?
+    RussianText: "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u041A\u0440\u044B\u043B\u044C\u044F?"
+    EnglishText: Get Wings?
+    SpanishText: "\xBFConseguir alas?"
+    GermanText: "Fl\xFCgel bekommen?"
+    TurkishText: "Kanat al\u0131r m\u0131s\u0131n?"
+  - Key: new record
+    RussianText: "\u043D\u043E\u0432\u044B\u0439 \u0440\u0435\u043A\u043E\u0440\u0434"
+    EnglishText: new record
+    SpanishText: "nuevo r\xE9cord"
+    GermanText: neuer Rekord
+    TurkishText: "yeni\u0307 rekor"
+  - Key: Tutor
+    RussianText: "\u041D\u0410\u0416\u041C\u0418\u0422\u0415 \u041D\u0410 \u042D\u041A\u0420\u0410\u041D
+      \u0418 \u0414\u0412\u0418\u0413\u0410\u0419\u0422\u0415 \u0412\u041B\u0415\u0412\u041E
+      \u0418 \u0412\u041F\u0420\u0410\u0412\u041E, \u0427\u0422\u041E\u0411\u042B
+      \u0423\u041F\u0420\u0410\u0412\u041B\u042F\u0422\u042C"
+    EnglishText: PRESS THE SCREEN AND MOVE LEFT AND RIGHT TO CONTROL
+    SpanishText: "PULSE LA PANTALLA Y MU\xC9VASE A IZQUIERDA Y DERECHA PARA CONTROLAR"
+    GermanText: "DR\xDCCKEN SIE AUF DEN BILDSCHIRM UND BEWEGEN SIE IHN NACH LINKS
+      UND RECHTS, UM ZU STEUERN"
+    TurkishText: EKRANA BASIN VE KONTROL ETMEK ICIN SOLA VE SAGA HAREKET ETTIRIN
+  - Key: No, thanks...
+    RussianText: "\u041D\u0435\u0442, \u0441\u043F\u0430\u0441\u0438\u0431\u043E..."
+    EnglishText: No, thanks...
+    SpanishText: No, gracias...
+    GermanText: Nein, danke...
+    TurkishText: "Hay\u0131r, te\u015Fekk\xFCrler."
+  - Key: PERFECT!
+    RussianText: "\u041F\u0420\u0415\u0412\u041E\u0421\u0425\u041E\u0414\u041D\u041E!"
+    EnglishText: PERFECT!
+    SpanishText: "\xA1PERFECTO!"
+    GermanText: "SCH\xD6N!"
+    TurkishText: "M\xDCKEMMEL!"
+  - Key: points
+    RussianText: "\u043E\u0447\u043A\u0438"
+    EnglishText: points
+    SpanishText: puntos
+    GermanText: Punkte
+    TurkishText: noktalar
+  - Key: congratulations
+    RussianText: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u0435\u043C
+      \u0441 \u043F\u043E\u043A\u0443\u043F\u043A\u043E\u0439!"
+    EnglishText: Congratulations on your purchase!
+    SpanishText: Enhorabuena por su compra.
+    GermanText: "Herzlichen Gl\xFCckwunsch zu Ihrem Kauf!"
+    TurkishText: "Sat\u0131n alma isleminiz icin tebrikler!"
+  - Key: Continue
+    RussianText: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+    EnglishText: Continue
+    SpanishText: "Contin\xFAe en"
+    GermanText: Weiter
+    TurkishText: Devam et
+  - Key: GET
+    RussianText: "\u041A\u0440\u0443\u0442\u043E!"
+    EnglishText: Cool!
+    SpanishText: "\xA1Genial!"
+    GermanText: Super!
+    TurkishText: Harika!
+  - Key: SummerCat
+    RussianText: "\u041A\u043E\u0442\u0430 \u0421\u043E\u043B\u043D\u044B\u0448\u043A\u043E"
+    EnglishText: Sunny Cat
+    SpanishText: Gato soleado
+    GermanText: Sonnige Katze
+    TurkishText: "G\xFCnesli Kedi"
+  - Key: YOU GET
+    RussianText: "\u0412\u044B \u0437\u0430\u0440\u0430\u0431\u043E\u0442\u0430\u043B\u0438"
+    EnglishText: You get
+    SpanishText: Usted obtiene
+    GermanText: Sie erhalten
+    TurkishText: "Al\u0131rs\u0131n"
+  - Key: PLAY EVENT
+    RussianText: "\u0418\u0433\u0440\u0430\u0435\u043C!"
+    EnglishText: Lets PLAY!
+    SpanishText: "\xA1A JUGAR!"
+    GermanText: Lasst uns SPIELEN!
+    TurkishText: "Hadi oynayal\u0131m!"
+  - Key: CHRISTMAS LEVEL
+    RussianText: "\u041D\u041E\u0412\u041E\u0413\u041E\u0414\u041D\u0418\u0419 \u0418\u0412\u0415\u041D\u0422"
+    EnglishText: CHRISTMAS LEVEL
+    SpanishText: NIVEL DE NAVIDAD
+    GermanText: WEIHNACHTLICHE EBENE
+    TurkishText: "NOEL SEV\u0130YES\u0130"
+  - Key: minute0
+    RussianText: "\u043C\u0438\u043D\u0443\u0442"
+    EnglishText: minutes
+    SpanishText: minutos
+    GermanText: Minuten
+    TurkishText: dakika
+  - Key: minute1
+    RussianText: "\u043C\u0438\u043D\u0443\u0442\u0443"
+    EnglishText: minute
+    SpanishText: minuto
+    GermanText: Minute
+    TurkishText: dakika
+  - Key: minute2
+    RussianText: "\u043C\u0438\u043D\u0443\u0442\u044B"
+    EnglishText: minutes
+    SpanishText: minutos
+    GermanText: Minuten
+    TurkishText: dakika
+  - Key: TimeLeft1
+    RussianText: "\u041F\u043E\u0438\u0433\u0440\u0430\u0439 \u0435\u0449\u0435 "
+    EnglishText: 'Play another '
+    SpanishText: 'Juega otro '
+    GermanText: 'Ein weiteres Spiel '
+    TurkishText: 'Baska bir tane cal '
+  - Key: TimeLeft2
+    RussianText: ", \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C"
+    EnglishText: ' to get'
+    SpanishText: ' para obtener'
+    GermanText: ' zu erhalten'
+    TurkishText: ' almak icin'
+  - Key: EvenSkin
+    RussianText: "\u0418\u0432\u0435\u043D\u0442\u043E\u0432\u044B\u0439 \u041A\u043E\u0442"
+    EnglishText: Even Skin
+    SpanishText: Piel uniforme
+    GermanText: "Gleichm\xE4\xDFige Haut"
+    TurkishText: "E\u015Fit Cilt"
+  - Key: EVENT
+    RussianText: "\u0421\u041E\u0411\u042B\u0422\u0418\u0415"
+    EnglishText: EVENT
+    SpanishText: EVENTO
+    GermanText: EVENT
+    TurkishText: ETKINLIK
+  - Key: HelloText
+    RussianText: "\u041F\u0440\u0438\u0432\u0435\u0442! \u041C\u044B \u0442\u0430\u043A
+      \u0440\u0430\u0434\u044B \u0442\u0435\u0431\u044F \u0432\u0438\u0434\u0435\u0442\u044C!"
+    EnglishText: Hi! We're so happy to see you!
+    SpanishText: "\xA1Hola! \xA1Nos alegramos mucho de verte!"
+    GermanText: Hallo! Wir sind so froh, Sie zu sehen!
+    TurkishText: "Merhaba! Sizi g\xF6rd\xFCg\xFCm\xFCze cok sevindik!"
+  - Key: HelloButtonText
+    RussianText: "\u041D\u0430\u0447\u0438\u043D\u0430\u0435\u043C!"
+    EnglishText: Start to Play
+    SpanishText: Empezar a jugar
+    GermanText: Start zum Spiel
+    TurkishText: Oynamaya Basla
+  - Key: GOOD
+    RussianText: "\u0425\u041E\u0420\u041E\u0428\u041E"
+    EnglishText: GOOD
+    SpanishText: BUENA
+    GermanText: GUT
+    TurkishText: "\u0130Y\u0130"
+  - Key: GREAT
+    RussianText: "\u0412\u0415\u041B\u0418\u041A\u041E\u041B\u0415\u041F\u041D\u041E"
+    EnglishText: GREAT
+    SpanishText: GRAN
+    GermanText: GROSSE
+    TurkishText: "B\xDCY\xDCK"
+  - Key: SUPER
+    RussianText: "\u0421\u0423\u041F\u0415\u0420"
+    EnglishText: SUPER
+    SpanishText: SUPER
+    GermanText: GROSSE
+    TurkishText: "S\xDCPER"
+  - Key: AWESOME
+    RussianText: "\u0423\u0414\u0418\u0412\u0418\u0422\u0415\u041B\u042C\u041D\u041E"
+    EnglishText: AWESOME
+    SpanishText: ES INCREIBLE.
+    GermanText: ERSTAUNLICH
+    TurkishText: MUHTESEM
+  - Key: FANTASTIC
+    RussianText: "\u0424\u0410\u041D\u0422\u0410\u0421\u0422\u0418\u0427\u041D\u041E"
+    EnglishText: FANTASTIC
+    SpanishText: "FANT\xC1STICO"
+    GermanText: FANTASTISCH
+    TurkishText: "FANTAST\u0130K"
+  - Key: AMAZING
+    RussianText: "\u041F\u041E\u0422\u0420\u042F\u0421\u0410\u042E\u0429\u0415"
+    EnglishText: AMAZING
+    SpanishText: ASOMBROSO
+    GermanText: VERBLUFFEND
+    TurkishText: "MUHTE\u015EEM"
+  - Key: FABULOUS
+    RussianText: "\u0421\u041A\u0410\u0417\u041E\u0427\u041D\u041E"
+    EnglishText: FABULOUS
+    SpanishText: FABRICALMENTE
+    GermanText: FABRICALLY
+    TurkishText: "FABR\u0130KAL OLARAK"
+  - Key: INCREDIBLE
+    RussianText: "\u041D\u0415\u0412\u0415\u0420\u041E\u042F\u0422\u041D\u041E"
+    EnglishText: INCREDIBLE
+    SpanishText: "INCRE\xCDBLE"
+    GermanText: UNGLAUBLICH
+    TurkishText: "\u0130NANILMAZ"
+  - Key: OUTSTANDING
+    RussianText: "\u0418\u0421\u041A\u041B\u042E\u0427\u0418\u0422\u0415\u041B\u042C\u041D\u041E"
+    EnglishText: OUTSTANDING
+    SpanishText: DESTACADO
+    GermanText: AUSGENOMMEN
+    TurkishText: "\xD6NDE GELEN"
+  - Key: UNBEATABLE
+    RussianText: "\u041D\u0415\u041F\u0420\u0415\u0412\u0417\u041E\u0419\u0414\u0415\u041D\u041D\u041E"
+    EnglishText: UNBEATABLE
+    SpanishText: INMEJORABLE
+    GermanText: UNSCHLAGBAR
+    TurkishText: "YEN\u0130LEMEZ"
+  - Key: EPIC
+    RussianText: "\u042D\u041F\u0418\u041A"
+    EnglishText: EPIC
+    SpanishText: EPIC
+    GermanText: EPIC
+    TurkishText: EPIC
+  - Key: LEGENDARY
+    RussianText: "\u041B\u0415\u0413\u0415\u041D\u0414\u0410\u0420\u041D\u041E"
+    EnglishText: LEGENDARY
+    SpanishText: LEGENDARIO
+    GermanText: "LEGEND\xC4RE"
+    TurkishText: "EFSANEV\u0130"

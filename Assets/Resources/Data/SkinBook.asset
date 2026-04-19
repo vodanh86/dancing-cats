@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01af8570093d24b489fe4f2ba86a17e6, type: 3}
+  m_Name: SkinBook
+  m_EditorClassIdentifier: 
+  _data:
+  - _id: 0
+    _cost: 0
+    _icon: {fileID: 21300000, guid: 700b3db5613d57b4bb11095c16755808, type: 3}
+    _isInApp: 0
+    _isForReward: 0
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Whiskers
+  - _id: 1
+    _cost: 100
+    _icon: {fileID: 21300000, guid: 37a2b00a9d480904dbb858452c96a2a6, type: 3}
+    _isInApp: 1
+    _isForReward: 1
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Fluffy
+  - _id: 2964
+    _cost: 100
+    _icon: {fileID: 21300000, guid: 2a303a2936ded8544b98a8c6916f82e9, type: 3}
+    _isInApp: 1
+    _isForReward: 0
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Mittens
+  - _id: 3
+    _cost: 200
+    _icon: {fileID: 21300000, guid: 27de737bcf6204541a3bd3ed40bc128f, type: 3}
+    _isInApp: 0
+    _isForReward: 0
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Paws
+  - _id: 4
+    _cost: 500
+    _icon: {fileID: 21300000, guid: 3771b92f0b386364aa383de2c6b403f5, type: 3}
+    _isInApp: 0
+    _isForReward: 0
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Ginger
+  - _id: 2965
+    _cost: 700
+    _icon: {fileID: 21300000, guid: da36eb17ecf53c0449db33b05d29f666, type: 3}
+    _isInApp: 1
+    _isForReward: 0
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Fuzzy
+  - _id: 6
+    _cost: 1000
+    _icon: {fileID: 21300000, guid: 021c718b20e01ca4895f2fc89db688ad, type: 3}
+    _isInApp: 0
+    _isForReward: 0
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Kitty
+  - _id: 2966
+    _cost: 2000
+    _icon: {fileID: 21300000, guid: ee8d5d0731239f64b80bdc58df9ba25f, type: 3}
+    _isInApp: 1
+    _isForReward: 0
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Mushroom
+  - _id: 8
+    _cost: 2000
+    _icon: {fileID: 21300000, guid: 17a9df021f5e1b64ba6b4579c54e9dd4, type: 3}
+    _isInApp: 1
+    _isForReward: 1
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Snuggles
+  - _id: 2967
+    _cost: 5000
+    _icon: {fileID: 21300000, guid: d7930eeae4c13fe4199d6e289149e995, type: 3}
+    _isInApp: 1
+    _isForReward: 0
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Simba
+  - _id: 10
+    _cost: 99999999
+    _icon: {fileID: 21300000, guid: 98030f550de35f24d9055de2933943f3, type: 3}
+    _isInApp: 0
+    _isForReward: 0
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 1
+    _nameID: Sunny
+  - _id: 11
+    _cost: 9999
+    _icon: {fileID: 21300000, guid: 10d145053ef3aab4eab5e08f8db868d8, type: 3}
+    _isInApp: 0
+    _isForReward: 0
+    _adsWatchedToUnlock: 3
+    _isEventSkin: 0
+    _nameID: Santa

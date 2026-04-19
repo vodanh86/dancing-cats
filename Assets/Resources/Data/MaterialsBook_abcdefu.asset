@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b6c58329e5d1a44a448e935f383993, type: 3}
+  m_Name: MaterialsBook_abcdefu
+  m_EditorClassIdentifier: 
+  _materialsPair:
+  - _firstBlockMaterial: {fileID: 2100000, guid: 3c8cc04847b80e54abf2a22032683203, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: 49ac3679599050c47a3693fcf4fb72bd, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: 6d9cb94f1c7da3b42aae9aae22ef226c, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: aae5a225a6f99bb4ea9a519efbc30724, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 1c87440bf5fefd04e89e2acd910c56d6, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: 49ac3679599050c47a3693fcf4fb72bd, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: 497be6e760a597a43a9765a8b51cd078, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: 3bbb37a7c980c774c887e01ff8673e41, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 3c8cc04847b80e54abf2a22032683203, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: 49ac3679599050c47a3693fcf4fb72bd, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: 6d9cb94f1c7da3b42aae9aae22ef226c, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: 4d2096d02755bea47b27b815e1aee0ad, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 1c87440bf5fefd04e89e2acd910c56d6, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: 49ac3679599050c47a3693fcf4fb72bd, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: 497be6e760a597a43a9765a8b51cd078, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: 17af45ba0d508aa4f89bb7051c0db60d, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 195e1ef2b7d876d48ba0063567d2332f, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: e0fa66fd031e6c14fa20014b697e7b90, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: d59933a014c00e041afc885efbb5c470, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: 17af45ba0d508aa4f89bb7051c0db60d, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 3c8cc04847b80e54abf2a22032683203, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: 49ac3679599050c47a3693fcf4fb72bd, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: 6d9cb94f1c7da3b42aae9aae22ef226c, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: 4d2096d02755bea47b27b815e1aee0ad, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 1c87440bf5fefd04e89e2acd910c56d6, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: 49ac3679599050c47a3693fcf4fb72bd, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: 497be6e760a597a43a9765a8b51cd078, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: aae5a225a6f99bb4ea9a519efbc30724, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 195e1ef2b7d876d48ba0063567d2332f, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: e0fa66fd031e6c14fa20014b697e7b90, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: d59933a014c00e041afc885efbb5c470, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: aae5a225a6f99bb4ea9a519efbc30724, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 3c8cc04847b80e54abf2a22032683203, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: 49ac3679599050c47a3693fcf4fb72bd, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: 6d9cb94f1c7da3b42aae9aae22ef226c, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: aae5a225a6f99bb4ea9a519efbc30724, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 1c87440bf5fefd04e89e2acd910c56d6, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: 49ac3679599050c47a3693fcf4fb72bd, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: 497be6e760a597a43a9765a8b51cd078, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: aae5a225a6f99bb4ea9a519efbc30724, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 195e1ef2b7d876d48ba0063567d2332f, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: e0fa66fd031e6c14fa20014b697e7b90, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: d59933a014c00e041afc885efbb5c470, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: aae5a225a6f99bb4ea9a519efbc30724, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 3c8cc04847b80e54abf2a22032683203, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: 49ac3679599050c47a3693fcf4fb72bd, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: 6d9cb94f1c7da3b42aae9aae22ef226c, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: aae5a225a6f99bb4ea9a519efbc30724, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 1c87440bf5fefd04e89e2acd910c56d6, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: 49ac3679599050c47a3693fcf4fb72bd, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: 497be6e760a597a43a9765a8b51cd078, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: aae5a225a6f99bb4ea9a519efbc30724, type: 2}
+  - _firstBlockMaterial: {fileID: 2100000, guid: 1c87440bf5fefd04e89e2acd910c56d6, type: 2}
+    _secondBlockMaterial: {fileID: 2100000, guid: e0fa66fd031e6c14fa20014b697e7b90, type: 2}
+    _skyMaterial: {fileID: 2100000, guid: e7bd494e7abcbb24b972a54ce6da7081, type: 2}
+    _rainbowMaterial: {fileID: 2100000, guid: aae5a225a6f99bb4ea9a519efbc30724, type: 2}
