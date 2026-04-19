@@ -217,8 +217,11 @@ half4 frag(const v2f input) : SV_Target
 
     half3 gi = albedo.xyz * SAMPLE_GI(input.staticLightmapUV, input.vertexSH, input.normalWS);
 
-    #if defined(_SCREEN_SPACE_OCCLUSION)
+    #if defined(_SCREEN_SPACE_OCCLUSION) || defined(_REFLECTIONS)
     const float2 normalized_screen_space_uv = GetNormalizedScreenSpaceUV(position_cs);
+    #endif
+
+    #if defined(_SCREEN_SPACE_OCCLUSION)
     const AmbientOcclusionFactor ao_factor = GetScreenSpaceAmbientOcclusion(normalized_screen_space_uv);
     gi *= ao_factor.indirectAmbientOcclusion;
     #endif
@@ -227,7 +230,7 @@ half4 frag(const v2f input) : SV_Target
     #endif
 
     #ifdef _REFLECTIONS
-    add_reflections(fragment_color, view_direction_ws, normal_ws, position_ws, albedo.rgb);
+    add_reflections(fragment_color, view_direction_ws, normal_ws, position_ws, normalized_screen_space_uv, albedo.rgb);
     #endif
 
     #ifdef _SPECULAR
