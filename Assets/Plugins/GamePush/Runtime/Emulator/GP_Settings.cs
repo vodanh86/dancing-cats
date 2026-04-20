@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace GamePush
 {
@@ -38,7 +39,7 @@ namespace GamePush
                 return platformSettings;
             }
             Console.Log("PLATFORM SETTINGS: ", "NULL");
-            return new GP_PlatformSettings();
+            return ScriptableObject.CreateInstance<GP_PlatformSettings>();
         }
 
         public Language GetLanguage()

@@ -106,14 +106,15 @@ namespace Eccentric
             if (Instance != null) return;
             Instance = this;
             DontDestroyOnLoad(this);
-#if !UNITY_EDITOR
+#if UNITY_WEBGL && !UNITY_EDITOR
             Platform = EccentricJS.ECC_GetCurrentPlatform();
             Language = EccentricJS.ECC_GetLanguage();
             IsMobile = EccentricJS.ECC_IsMobile();
+#else
+            Platform = Platform.None;
+            Language = EccentricJS.ECC_GetLanguage();
+            IsMobile = EccentricJS.ECC_IsMobile();
 #endif
-
-            // Force a single-language build behavior.
-            Language = Eccentric.Language.English;
 
 #if GAMEDISTRIBUTION
             var gd = gameObject.AddComponent<GameDistribution>();
@@ -222,6 +223,9 @@ namespace Eccentric
 #elif JIO
             return true;
 #else
+            if (!Application.isEditor && Application.platform != RuntimePlatform.WebGLPlayer)
+                return true;
+
             if (string.IsNullOrEmpty(_token))
             {
                 throw new Exception("ТОКЕН НЕ ЗАПОЛНЕН!");
@@ -287,6 +291,9 @@ namespace Eccentric
 
         private void Subscribe()
         {
+            if (AdManager == null)
+                return;
+
             AdManager.Subscribe();
             
 #if GAMEDISTRIBUTION
@@ -301,6 +308,9 @@ namespace Eccentric
 
         private void Unsubscribe()
         {
+            if (AdManager == null)
+                return;
+
             AdManager.Unsubscribe();
 
 #if GAMEDISTRIBUTION
