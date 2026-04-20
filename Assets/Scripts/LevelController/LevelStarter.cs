@@ -75,6 +75,7 @@ public class LevelStarter : MonoBehaviour
     {
         _startButtonUI.GameStarted -= OnButtonClick;
         _startButtonUI.gameObject.SetActive(false);
+        LevelLoader.Instance.SetOverlayVisible(false);
         _phaseSwitcher.StartSearchingBlock();
 
         GameProgressHolder.Instance.SendLevelStartedEvent();

@@ -13,7 +13,6 @@
   <Project Path="DELTation.ToonShader.csproj" />
   <Project Path="Assembly-CSharp-Editor-firstpass.csproj" />
   <Project Path="Boxophobic.PolyverseSkies.Editor.csproj" />
-  <Project Path="Sirenix.OdinInspector.Modules.UnityMathematics.csproj" />
   <Project Path="ParticleImage.csproj" />
   <Project Path="Boxophobic.PolyverseSkies.Scripts.csproj" />
 </Solution>

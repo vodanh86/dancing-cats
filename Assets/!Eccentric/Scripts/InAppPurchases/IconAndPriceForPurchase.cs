@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Sirenix.OdinInspector;
 using UnityEngine;
 #if !GAMEDISTRIBUTION && !LAGGED && !JIO
 using GamePush;
@@ -14,10 +13,10 @@ namespace Eccentric
     public class IconAndPriceForPurchase : MonoBehaviour
     {
 #if !GAMEDISTRIBUTION && !LAGGED && !JIO
-        [SerializeField, HideIf(nameof(IsInAppTagType))]
+        [SerializeField]
         private int _inAppId;
 
-        [SerializeField, HideIf(nameof(IsInAppIdType))]
+        [SerializeField]
         private string _inAppTag;
 
         private TextMeshProUGUI _textPrice;

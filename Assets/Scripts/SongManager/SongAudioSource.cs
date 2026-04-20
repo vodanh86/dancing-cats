@@ -76,7 +76,14 @@ public class SongAudioSource : MonoBehaviour
                 AudioDictionary[idAudio] = clip;
                 callback?.Invoke(clip);
             }
+            else
+            {
+                Debug.LogWarning($"Failed to load audio clip '{idAudio}': {request.error}");
+                callback?.Invoke(null);
+            }
         }
+
+        _isLoadingSong = false;
     }
 }
 

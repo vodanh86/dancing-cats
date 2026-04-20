@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using Sirenix.OdinInspector;
 
 #if GAMEDISTRIBUTION
 #elif LAGGED
@@ -19,8 +18,7 @@ namespace Eccentric
     {
         public static EccentricInit Instance { get; private set; }
 
-        [field: SerializeField, Title("TEST OPTIONS"),
-                InfoBox("Эти опции менять не обязательно, они нужны только для тестирования")]
+        [field: SerializeField]
         public Language Language { get; private set; }
 
 
@@ -43,14 +41,14 @@ namespace Eccentric
         private SetQualityGraphic _setQualityGraphic;
         private List<LocalisationDataSO> _localisationDatas = new();
 
-        [Space(30), Title("SAVE OPTION"), SerializeField]
+        [Space(30), SerializeField]
         private SaveType _saveType = SaveType.LocalAndCloud;
 
         public SaveType SaveType => _saveType;
 
         [SerializeField] private SaveSystemType _saveSystemType = SaveSystemType.Data;
 
-        [Space(30), Title("TOOLS"), SerializeField]
+        [Space(30), SerializeField]
         private bool _isEnableTextSwitcher;
 
         [SerializeField] private bool _isEnableConsoleLog;
@@ -58,42 +56,37 @@ namespace Eccentric
         private ConsoleViewer _consoleViewer;
 
 
-        [Space(30), Title("SETTINGS")] public Publisher Publisher = Publisher.Eccentric;
+        [Space(30)] public Publisher Publisher = Publisher.Eccentric;
 
-        [HideIf(nameof(IsNotGamePush)), SerializeField]
+        [SerializeField]
         private InAppIdType _inAppIdType;
 
         public static InAppIdType InAppIdType { get; private set; }
 
 
-        [InfoBox(
-            "ВНИМАНИЕ!!! Если билд для GameDistribution, LAGGED или Jio, то обязательно выбери соответствующее значение в поле Build Type!")]
-        [OnValueChanged(nameof(SetDefines))]
         public BuildType BuildType;
 
-        [HideIf(nameof(IsNotGamePush)), SerializeField,
-         InfoBox("Секретный ключ можно уточнить у админов!!!"), LabelText("Secret key")]
+        [SerializeField]
         private string _token;
 
         private bool _isTokenValid;
 
-        [SerializeField, HideIf(nameof(IsNotGameDistribution))]
+        [SerializeField]
         private string _gameDistributionKey;
 
-        [SerializeField, HideIf(nameof(IsNotLagged)), HideIf(nameof(IsEccentricPublisher))]
+        [SerializeField]
         private string _developerId;
 
-        [SerializeField, HideIf(nameof(IsNotLagged)), HideIf(nameof(IsEccentricPublisher))]
+        [SerializeField]
         private string _publisherId;
 
-        [SerializeField, HideIf(nameof(IsNotJio))]
+        [SerializeField]
         private string _adSpotInterstitial;
 
-        [SerializeField, HideIf(nameof(IsNotJio))]
+        [SerializeField]
         private string _adSpotRewardedVideo;
 
-        [InfoBox("Имя пакета указывается в формате com.EccentricStudioGames.game_nameSP")]
-        [SerializeField, HideIf(nameof(IsNotJio))]
+        [SerializeField]
         private string _packageName;
 
         private readonly float _timeBeforeInitialize = 1f;
@@ -104,6 +97,7 @@ namespace Eccentric
         private void OnValidate()
         {
             InAppIdType = _inAppIdType;
+            SetDefines();
         }
 #endif
 
@@ -117,6 +111,10 @@ namespace Eccentric
             Language = EccentricJS.ECC_GetLanguage();
             IsMobile = EccentricJS.ECC_IsMobile();
 #endif
+
+            // Force a single-language build behavior.
+            Language = Eccentric.Language.English;
+
 #if GAMEDISTRIBUTION
             var gd = gameObject.AddComponent<GameDistribution>();
             gd.Init(_gameDistributionKey);
@@ -335,12 +333,6 @@ namespace Eccentric
 #endif
         }
 
-        private bool IsNotGameDistribution() => BuildType != BuildType.GameDistribution;
-        private bool IsNotLagged() => BuildType != BuildType.Lagged;
-        private bool IsNotJio() => BuildType != BuildType.Jio;
-        private bool IsNotGamePush() => BuildType != BuildType.Other;
-
-        private bool IsEccentricPublisher() => Publisher == Publisher.Eccentric;
     }
 
     public enum BuildType

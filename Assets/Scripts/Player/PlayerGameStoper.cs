@@ -36,6 +36,7 @@ public class PlayerGameStoper : MonoBehaviour
     {
         SongManager.Instance.StopMusic();
         _movement.CanMove = false;
+        LevelLoader.Instance.SetOverlayVisible(true);
 
         _wingsUI.SetVisibilityFast(false);
         _loseUI.SetVisibility(true);

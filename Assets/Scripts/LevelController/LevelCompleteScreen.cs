@@ -50,6 +50,7 @@ public class LevelCompleteScreen : MonoBehaviour
 
     private void ShowScreen()
     {
+        LevelLoader.Instance.SetOverlayVisible(true);
         _rouletteRewarder.StartToWork();
         _levelCompleteScreen.DOFade(1f, _showingTime).OnComplete(() =>
         {
